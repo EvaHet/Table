@@ -1,0 +1,33 @@
+table {
+
+    border-collapse: collapse;
+    margin: 0px auto;
+    cursor: pointer;
+
+  }
+
+  th, td {
+
+    border: solid 1px #000;
+
+    padding: 5px;
+
+  }
+
+tbody tr:nth-child(odd) {
+
+    background-color: #C9E4F6;/* фон нечетных строк */
+
+  }
+
+  tbody tr:nth-child(even) {
+
+    background-color: #B4DAF2;/* фон четных строк */
+
+  }
+  
+  tr:hover td:not(.title){
+
+    background: #658be2;/* фон строки при наведении */
+
+  }
